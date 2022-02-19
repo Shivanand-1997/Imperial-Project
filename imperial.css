@@ -1,0 +1,541 @@
+/* banner starts */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.banner
+{
+    height: 650px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.87)), 
+    url("https://bootstrapmade.com/demo/templates/Imperial/assets/img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.companylogo
+{
+    font-family: Segoe Script;
+    font-size: 85px;
+
+}
+
+
+.head1
+{
+    font-size: 45px;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+.head2
+{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.banner .b1, .banner .b2
+{
+    font-size: 17px;
+    font-weight: 700;
+    margin: 15px;
+    margin-top: 25px;
+    color: white;
+    padding: 13px;
+    transition:background-color .5s,border .5s;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.buttons
+{
+    margin-top: 20px;
+}
+
+.banner .b1
+{
+    background-color: aqua;
+    border: 2px solid aqua;
+}
+
+.banner .b2
+{
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.banner .b2:hover
+{
+    border: 2px white;
+    background-color: aqua;
+}
+
+.banner .b1:hover
+{
+    background-color: transparent;
+    border: 2px solid white;
+}
+/* banner ends */
+
+
+
+/* Navbar starts */
+
+
+nav
+{
+    background-color:rgba(0, 0, 0, 0.87);
+    padding: 10px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    height: 75px;
+    z-index: 1;
+}
+
+nav ul a
+{
+    color: white;
+    text-decoration: none;
+  
+    
+}
+nav ul a:hover
+{
+    color: rgb(3, 220, 228);
+}
+
+.brand-logo
+{
+    color: white;
+    font-family: Segoe Script;
+    font-size: 45px;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 210px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+nav ul li
+{
+    display: inline;
+    margin: 15px;
+
+}
+nav ul
+{
+    display: inline;
+}
+/* Navbar ends */
+.aboutus
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutush1
+{
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.para
+{
+    text-align: center;
+}
+
+.aboutus hr
+{
+    width: 60px;
+        height: 4px;
+        background-color: cyan;
+        border: none;
+        margin:20px auto ;
+}
+
+.para
+{
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.imgpara
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    margin-top: 0;
+    /* justify-content: space-between; */
+}
+
+.about-image img
+{
+    height: auto;
+    width: 100%;
+}
+
+.about-image
+{
+    width: 50%;
+    height: auto;
+    margin: 20px;
+}
+.aboutus-para
+{
+    width: 50%;
+    margin: 20px;
+}
+
+.aboutus-para h1
+{
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.aboutus-para p
+{
+    margin: 10px;
+    line-height: 20px;
+    color: gray;
+}
+/* About us ends */
+
+/* OUR SERVICES STARTS */
+.service
+{
+   /* background-color: yellow; */
+}
+.service .services-h1, .service hr, .service .services-p
+{
+   text-align: center;
+}
+
+.services-h1
+{
+   font-size: 40px;
+}
+
+.service hr
+{
+   width: 90px;
+   height: 5px;
+   background-color: aqua;
+   border: none;
+   margin: 20px auto;
+}
+
+.service-child
+{
+    /* border: 2px solid black; */
+    margin: 20px;
+    width: 400px;
+    height: 250px;
+    padding: 30px;
+    justify-content: space-around;
+    display: flex;
+   
+    
+}
+.service-info
+{
+   /* border: 2px solid purple; */
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-icon
+{
+    /* border: 3px solid red; */
+    flex-basis: 100px;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+.service-content
+{
+    /* border: 2px solid darkblue; */
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.service-content h1
+{
+    font-size: 25px;
+}
+
+
+.service-icon i
+{
+    text-align: center;
+    background-size: 100% 100%;
+    height: 80px;
+    width: 80px;
+    padding: 25px 26px;
+    font-size: 25px;
+    border: 2px solid #03C4EB;
+    background-color: #03C4EB;
+    border-radius: 100%;
+    color: white;
+    transition: all .5s;
+}
+
+.service-child:hover .service-icon i
+{
+    background-color: transparent;
+    border: 2px solid #03C4EB;
+    color: #03C4EB;
+}
+/* OUR SERVICES ENDS */
+
+
+/* SUBSCRIBE STARTS */
+.subscribe
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.658)),
+    url("https://bootstrapmade.com/demo/templates/Imperial/assets/img/subscribe-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.subscribe-text
+{
+    /* border: 2px solid black; */
+    color: white;
+    margin: 92px;
+    justify-content: space-around;
+}
+
+.subscribe-button button
+{
+    border: 3px solid white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 250px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 80px;
+    justify-content: center;
+    transition: all 0.5s;
+}
+.subscribe-button button:hover
+{
+    background-color: #03C4EB;
+    border: 3px solid #03C4EB;
+}
+
+
+.subscribe-text h1
+{
+    /* border: 2px solid yellow; */
+    margin-bottom: 20px;
+}
+.subscribe-text p
+{
+    font-size: 18px;
+    /* border: 2px solid blue; */
+}
+/* SUBSCRIBE ENDS */
+
+
+/* testimonials starts */
+
+.testimonials
+{
+    background-color: lightgray;
+}
+.testimonials-heading
+{
+    /* border: 3px solid yellow; */
+    justify-content: center;
+    text-align: center;
+}
+.testimonials-heading hr
+{
+    width: 80px;
+    height: 5px;
+    background-color: #03C4EB;
+    border: none;
+    margin: 20px auto;
+}
+.testimonials-heading h1
+{
+    font-size: 40px;
+    margin: 25px;
+}
+.testimonials-heading p
+{
+    font-size: 19px ;
+    color: gray;
+}
+
+.testimonials-content
+{
+    /* border: 4px solid rgb(48, 13, 173); */
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+.testimonials-content1
+{
+    display: flex;
+}
+.testimonials-content1 h1, .testimonials-content1 h4, .testimonials-content1 p
+{
+    display: flex;
+    flex-direction: column;
+}
+.testimonials-content2
+{
+    display: flex;
+}
+.testimonials-content2 h1, .testimonials-content2 h4, .testimonials-content2 p
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.timage1
+{
+    /* border: 3px solid rgb(0, 238, 255); */
+    margin: 50px;
+    border-radius: 100%;
+}
+
+.timage1 img
+{
+    border-radius: 100%;
+    border: 4px solid white;
+    margin: 10px;
+    max-width: 100%;
+}
+
+
+.timage2
+{
+   /* border: 3px solid skyblue; */
+   margin: 50px;
+}
+.timage2 img
+{
+    border-radius: 100%;
+    border: 4px solid white;
+    margin: 10px;
+    max-width: 100%;
+}
+
+.testimonials-content1 p
+{
+   /* border: 3px solid violet; */
+   margin-top: 150px;
+   font-size: 17px;
+   padding: 60px;
+}
+
+
+.testimonials-content2 p
+{
+    /* border: 3px solid violet; */
+    margin-top: 150px;
+    font-size: 17px;
+    padding: 100px;
+}
+
+.testimonials-content1 h4, .testimonials-content2 h4
+{
+    font-size: 17px;
+    font-weight: 400;
+}
+.testimonials-content1 h1, .testimonials-content2 h1
+{
+    color: #03C4EB;
+}
+
+
+
+.content-para1 img, .content-para2 img
+{
+    position: relative;
+    display: flex;
+    
+}
+#top1
+{
+    top: 230px;
+    left: 65px;
+}
+#bottom1
+{
+    bottom: 80px;
+    left: 790px;
+    vertical-align: middle;
+    float: left;
+    -webkit-transform:rotate(180deg);
+}
+#top2{
+    top: 265px;
+    left: 80px;
+}
+#bottom2
+{
+    bottom: 118px;
+    left: 804px;
+    -webkit-transform:rotate(180deg);
+}
+
+/* testimonials ends */
+
+/* PORTFOLIO STARTS */
+
+.PORTFOLIO{
+    justify-content: center;
+    text-align: center;
+
+}
+.heading-port p
+{
+    margin: 20px;
+}
+.heading-port hr
+{
+    
+}
+.apps li
+{
+    text-decoration: none;
+    display: inline;
+    font-weight: 700;
+    margin: 13px;
+}
+
+
+
+
+/* PORTFOLIO ENDS */
